@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="tbmall-product" />
+        <module name="tbmall-member" />
+        <module name="tbmall-coupon" />
+        <module name="tbmall-order" />
+        <module name="tbmall-store" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="tbmall" target="1.5" />
+      <module name="tbmall-coupon" target="1.5" />
+      <module name="tbmall-member" target="1.5" />
+      <module name="tbmall-order" target="1.5" />
+      <module name="tbmall-product" target="1.5" />
+      <module name="tbmall-store" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="tbmall-coupon" options="" />
+      <module name="tbmall-member" options="" />
+      <module name="tbmall-order" options="" />
+      <module name="tbmall-product" options="" />
+      <module name="tbmall-store" options="" />
+    </option>
+  </component>
+</project>
