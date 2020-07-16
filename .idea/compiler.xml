@@ -10,7 +10,6 @@
         <module name="tbmall-store" />
         <module name="tbmall-coupon" />
         <module name="tbmall-member" />
-        <module name="renren-fast" />
         <module name="tbmall-product" />
       </profile>
     </annotationProcessing>
