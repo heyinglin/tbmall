@@ -18,6 +18,7 @@
         <module>tbmall-product</module>
         <module>tbmall-store</module>
         <module>tbmall-coupon</module>
+        <module>renren-fast</module>
     </modules>
 
     <properties>
