@@ -2,30 +2,32 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="tbmall-order" />
+        <module name="tbmall-product" />
         <module name="tbmall-store" />
         <module name="tbmall-coupon" />
         <module name="tbmall-member" />
-        <module name="tbmall-product" />
+        <module name="renren-fast" />
+        <module name="tbmall-order" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="renren-fast" target="1.8" />
-      <module name="tbmall" target="1.5" />
-      <module name="tbmall-coupon" target="1.5" />
-      <module name="tbmall-member" target="1.5" />
-      <module name="tbmall-order" target="1.5" />
-      <module name="tbmall-product" target="1.5" />
-      <module name="tbmall-store" target="1.5" />
+    <bytecodeTargetLevel target="8">
+      <module name="renren-fast" target="8" />
+      <module name="tbmall" target="8" />
+      <module name="tbmall-coupon" target="8" />
+      <module name="tbmall-member" target="8" />
+      <module name="tbmall-order" target="8" />
+      <module name="tbmall-product" target="8" />
+      <module name="tbmall-store" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="renren-fast" options="-parameters" />
+      <module name="renren-fast" options="" />
       <module name="tbmall-coupon" options="" />
       <module name="tbmall-member" options="" />
       <module name="tbmall-order" options="" />
