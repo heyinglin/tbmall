@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/renren-fast/renren-fast.iml" filepath="$PROJECT_DIR$/renren-fast/renren-fast.iml" />
+      <module fileurl="file://$PROJECT_DIR$/renren-generator/renren-generator.iml" filepath="$PROJECT_DIR$/renren-generator/renren-generator.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/tbmall.iml" filepath="$PROJECT_DIR$/.idea/tbmall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tbmall-common/tbmall-common.iml" filepath="$PROJECT_DIR$/tbmall-common/tbmall-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/tbmall-coupon/tbmall-coupon.iml" filepath="$PROJECT_DIR$/tbmall-coupon/tbmall-coupon.iml" />
       <module fileurl="file://$PROJECT_DIR$/tbmall-member/tbmall-member.iml" filepath="$PROJECT_DIR$/tbmall-member/tbmall-member.iml" />
       <module fileurl="file://$PROJECT_DIR$/tbmall-order/tbmall-order.iml" filepath="$PROJECT_DIR$/tbmall-order/tbmall-order.iml" />

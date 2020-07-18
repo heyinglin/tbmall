@@ -7,22 +7,26 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="tbmall-product" />
+        <module name="tbmall-order" />
+        <module name="renren-generator" />
         <module name="tbmall-store" />
         <module name="tbmall-coupon" />
+        <module name="tbmall-common" />
         <module name="tbmall-member" />
         <module name="renren-fast" />
-        <module name="tbmall-order" />
+        <module name="tbmall-product" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
-      <module name="renren-fast" target="8" />
-      <module name="tbmall" target="8" />
-      <module name="tbmall-coupon" target="8" />
-      <module name="tbmall-member" target="8" />
-      <module name="tbmall-order" target="8" />
-      <module name="tbmall-product" target="8" />
-      <module name="tbmall-store" target="8" />
+      <module name="renren-fast" target="1.8" />
+      <module name="renren-generator" target="1.8" />
+      <module name="tbmall" target="1.8" />
+      <module name="tbmall-common" target="1.8" />
+      <module name="tbmall-coupon" target="1.8" />
+      <module name="tbmall-member" target="1.8" />
+      <module name="tbmall-order" target="1.8" />
+      <module name="tbmall-product" target="1.8" />
+      <module name="tbmall-store" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
