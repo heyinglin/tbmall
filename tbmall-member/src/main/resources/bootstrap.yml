@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: tbmall-member
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+        namespace: e0c0e772-5a22-48cd-b6a2-d7daf6f15f2d
+        group:  dev
+        file-extension: yml

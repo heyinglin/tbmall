@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: tbmall-order
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+        namespace: 33b56493-f95f-4922-a468-de0a8a943c30
+        group:  dev
+        file-extension: yml

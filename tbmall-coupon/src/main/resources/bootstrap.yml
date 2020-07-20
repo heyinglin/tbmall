@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: tbmall-coupon
+  cloud:
+    nacos:
+      config:
+        namespace: ab5de27c-0d4c-49ae-9c5d-da286f4df281
+        group: dev
+        file-extension: yml
+        server-addr: 127.0.0.1:8848

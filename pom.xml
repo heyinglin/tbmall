@@ -21,6 +21,7 @@
         <module>renren-fast</module>
         <module>renren-generator</module>
        <module>tbmall-common</module>
+       <module>tbmall-gateway</module>
    </modules>
 
     <properties>

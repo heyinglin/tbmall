@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: tbmall-gateway
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+        namespace:  402131b8-4af9-4003-aaf1-eb5d7c85f8e1
+        group:  dev
+        file-extension: yml
+        refresh-enabled: true
+        extension-configs[0]:
+          dataid: gateway.yml
+          group: dev
+          refresh: true
