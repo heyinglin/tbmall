@@ -9,7 +9,7 @@ spring:
         group:  dev
         file-extension: yml
         refresh-enabled: true
-        extension-configs[0]:
-          dataid: gateway.yml
+        extension-configs:
+        - dataid: gateway.yml
           group: dev
           refresh: true
